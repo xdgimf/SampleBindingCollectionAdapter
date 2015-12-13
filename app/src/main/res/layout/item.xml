@@ -26,12 +26,12 @@
             android:layout_weight="1"
             android:text="@{viewModel.text}"/>
 
-        <TextView
+        <ImageView
             android:id="@+id/ivSelected"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:text="✓"
+            android:src="@drawable/ic_selected"
             android:visibility="@{viewModel.selected ? View.VISIBLE : View.GONE}"/>
 
     </LinearLayout>

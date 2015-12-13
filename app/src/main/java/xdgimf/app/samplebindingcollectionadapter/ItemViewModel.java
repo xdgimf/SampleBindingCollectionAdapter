@@ -1,6 +1,5 @@
 package xdgimf.app.samplebindingcollectionadapter;
 
-import android.database.Observable;
 import android.databinding.ObservableBoolean;
 import android.databinding.ObservableField;
 import android.view.View;
