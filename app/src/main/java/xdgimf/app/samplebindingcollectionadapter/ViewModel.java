@@ -19,7 +19,7 @@ public class ViewModel {
     }
 
     public void loadData() {
-        for (int i = 0; i < 10; ++i) {
+        for (int i = 0; i < 50; ++i) {
             items.add(new ItemViewModel("Item " + i));
         }
     }
